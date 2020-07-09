@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Control</title>
+  </head>
+  <body>
+    <center>
+    <div class="context">
+       <h1>Direct Your Robot</h1>
+       <button type="button" name="Forwards" id="Forwards" onclick="location.href='add.php?direction=f';">Forward</button><br>
+       <button type="button" name="Left" id="Left" onclick="location.href='add.php?direction=l';">Left</button>
+       <button type="button" name="Stop" id="Stop" onclick="location.href='add.php?direction=s';">STOP</button>
+       <button type="button" name="Right" id="Right" onclick="location.href='add.php?direction=r';">Right</button><br>
+       <button type="button" name="Backwards" id="Backwards" onclick="location.href='add.php?direction=b';">Backward</button>
+   </div>
+   </center>
+      <div class="area" >
+                  <ul class="circles">
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                  </ul>
+          </div >
+          <script type="text/javascript">
+            function redirectF()
+            {
+            var url = "add.php";
+            window.location(url);
+            }
+          </script>
+  </body>
+</html>
