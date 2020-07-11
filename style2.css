@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+@import url("https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext");
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+center{
+    font-family: 'Exo', sans-serif;
+    background: linear-gradient(to bottom, #ffffff 0%, #66ffff 100%);
+
+}
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+
+.context {
+    width: 100%;
+    position: absolute;
+    top:30vh;
+
+}
+
+.context button{
+    text-align: center;
+    border: none;
+    margin: 10px;
+    color: #4e54c8;
+    font-size: 10px;
+    font-weight: bold;
+}
